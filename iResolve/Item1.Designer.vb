@@ -74,7 +74,7 @@ Partial Class Item1
         'LabelAff
         '
         Me.LabelAff.AutoSize = True
-        Me.LabelAff.Location = New System.Drawing.Point(146, 224)
+        Me.LabelAff.Location = New System.Drawing.Point(133, 225)
         Me.LabelAff.Name = "LabelAff"
         Me.LabelAff.Size = New System.Drawing.Size(104, 13)
         Me.LabelAff.TabIndex = 5

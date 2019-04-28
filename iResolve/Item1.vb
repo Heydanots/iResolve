@@ -20,8 +20,9 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If EstCeUnChiffre() Then
             Me.LabelAff.Visible = True
-            Me.LabelAff.Text = "Le resultat final est : " & PreDeg(Me.TextBox1.Text, Me.TextBox2.Text)
+            Me.LabelAff.Text = "       Le resultat final est : " & PreDeg(Me.TextBox1.Text, Me.TextBox2.Text)
         Else
+            Me.LabelAff.Visible = True
             Me.LabelAff.Text = "Veillez entrez un nombre ou un chiffre"
         End If
     End Sub
