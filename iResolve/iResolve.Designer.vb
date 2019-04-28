@@ -89,7 +89,7 @@ Partial Class iResolve
         Me.MaximizeBox = False
         Me.Name = "iResolve"
         Me.ShowIcon = False
-        Me.Text = "²&"
+        Me.Text = "iResolve"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
