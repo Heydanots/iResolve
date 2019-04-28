@@ -14,7 +14,7 @@
     End Function
     Function PreDeg(ByVal A As Integer, ByVal B As Integer, ByVal C As Integer)
         Dim Delta, x1, x2 As Double
-        Delta = (B ^ 2) - 4 * (A * C)
+        Delta = Math.Sqrt(B) - 4 * (A * C)
         Delta = Delta ^ 0.5
 
         If Delta = 0 Then
