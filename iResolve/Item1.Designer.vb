@@ -104,6 +104,7 @@ Partial Class Item1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.LABEL_B)
         Me.Controls.Add(Me.LABEL_A)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Item1"
         Me.ShowIcon = False
         Me.Text = "Premier degré"

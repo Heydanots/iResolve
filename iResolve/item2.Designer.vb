@@ -131,6 +131,7 @@ Partial Class Item2
         Me.Controls.Add(Me.LabelC)
         Me.Controls.Add(Me.LabelB)
         Me.Controls.Add(Me.LabelA)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.Name = "Item2"
         Me.ShowIcon = False

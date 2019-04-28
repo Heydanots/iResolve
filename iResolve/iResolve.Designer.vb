@@ -72,6 +72,8 @@ Partial Class iResolve
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "iResolve"
         Me.ShowIcon = False
         Me.Text = "iResolve"
