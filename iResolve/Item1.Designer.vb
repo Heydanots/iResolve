@@ -33,23 +33,29 @@ Partial Class Item1
         'LABEL_A
         '
         Me.LABEL_A.AutoSize = True
+        Me.LABEL_A.Font = New System.Drawing.Font("HP Simplified", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LABEL_A.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.LABEL_A.Location = New System.Drawing.Point(154, 73)
         Me.LABEL_A.Name = "LABEL_A"
-        Me.LABEL_A.Size = New System.Drawing.Size(47, 13)
+        Me.LABEL_A.Size = New System.Drawing.Size(46, 13)
         Me.LABEL_A.TabIndex = 0
         Me.LABEL_A.Text = "Entrez A"
         '
         'LABEL_B
         '
         Me.LABEL_B.AutoSize = True
+        Me.LABEL_B.Font = New System.Drawing.Font("HP Simplified", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LABEL_B.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.LABEL_B.Location = New System.Drawing.Point(154, 99)
         Me.LABEL_B.Name = "LABEL_B"
-        Me.LABEL_B.Size = New System.Drawing.Size(47, 13)
+        Me.LABEL_B.Size = New System.Drawing.Size(45, 13)
         Me.LABEL_B.TabIndex = 1
         Me.LABEL_B.Text = "Entrez B"
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox1.Font = New System.Drawing.Font("HP Simplified", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(214, 70)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(56, 20)
@@ -57,6 +63,8 @@ Partial Class Item1
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TextBox2.Font = New System.Drawing.Font("HP Simplified", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(214, 96)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(56, 20)
@@ -64,6 +72,7 @@ Partial Class Item1
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("HP Simplified", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(175, 151)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
@@ -74,9 +83,11 @@ Partial Class Item1
         'LabelAff
         '
         Me.LabelAff.AutoSize = True
+        Me.LabelAff.Font = New System.Drawing.Font("HP Simplified", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelAff.ForeColor = System.Drawing.Color.FromArgb(CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.LabelAff.Location = New System.Drawing.Point(133, 225)
         Me.LabelAff.Name = "LabelAff"
-        Me.LabelAff.Size = New System.Drawing.Size(104, 13)
+        Me.LabelAff.Size = New System.Drawing.Size(98, 13)
         Me.LabelAff.TabIndex = 5
         Me.LabelAff.Text = "Le resultat final est : "
         Me.LabelAff.Visible = False
@@ -85,6 +96,7 @@ Partial Class Item1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(443, 292)
         Me.Controls.Add(Me.LabelAff)
         Me.Controls.Add(Me.Button1)
